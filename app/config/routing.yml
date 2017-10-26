@@ -1,3 +1,4 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+mix_blog:
+    resource: "@MixBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
